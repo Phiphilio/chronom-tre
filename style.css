@@ -1,0 +1,50 @@
+body {
+    background-color: darkred;
+}
+.contour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.ecran{
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    text-align: center;/* me permet de gérer la position par rapport à l'axe vertical.*/
+    justify-content: ;
+}
+.superieur{
+    padding-bottom: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 11px;
+}
+
+button:hover{
+   
+    color: darkred;
+    background-color: black;
+    border: dashed 2px;
+    transition: 0.7s;
+}
