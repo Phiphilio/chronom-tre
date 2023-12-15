@@ -17,14 +17,22 @@ main {
     justify-content: center;
     height: 700px;
 }
-.ecran{
+.ecran {
     background-color: white;
     border: solid 2px black;
     border-radius: 20px;
     height: 30px;
     display: flex;
-    text-align: center;/* me permet de gérer la position par rapport à l'axe vertical.*/
-    justify-content: ;
+    justify-content: center;
+}
+
+.ecran span {
+    position: relative;
+    display: flex;
+    top: 5px;
+    font-style: oblique;
+    /* gap: 100px; */
+    margin-left: 2px;
 }
 .superieur{
     padding-bottom: 30px;
@@ -47,4 +55,5 @@ button:hover{
     background-color: black;
     border: dashed 2px;
     transition: 0.7s;
+    font-size: 15px;
 }
